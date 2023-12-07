@@ -17,7 +17,7 @@ import com.student.data.service.IStudentService;
 import com.student.data.utils.ApiResponse;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // Replace with your frontend URL
+@CrossOrigin(origins = "https://student-management-q5z5yusws-saravanakumarpalanisamis-projects.vercel.app") // Replace with your frontend URL
 
 public class StudentController {
 
