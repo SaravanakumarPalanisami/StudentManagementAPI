@@ -24,7 +24,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+		</dependency>\
+		 <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>2.2.3</version> <!-- Adjust version as needed -->
+    </dependency>
 
 		<!-- Replace MySQL with H2 -->
 		<!-- <dependency>
